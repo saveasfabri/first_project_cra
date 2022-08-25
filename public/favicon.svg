@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1A1A1A;}
+	.st1{fill:#110F0E;}
+	.st2{font-family:'MyriadPro-Regular';}
+	.st3{font-size:12px;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:none;stroke:#F6182D;stroke-miterlimit:10;}
+</style>
+<rect class="st0" width="100" height="100"/>
+<g id="z">
+	<text transform="matrix(1 0 0 1 38.3069 53.8616)" class="st1 st2 st3">z</text>
+</g>
+<g>
+	
+		<image style="overflow:visible;opacity:0.75;" width="252" height="358" xlink:href="CC36A22C.png"  transform="matrix(0.24 0 0 0.24 23.48 11.24)">
+	</image>
+	<g>
+		<polygon class="st4" points="55.8,30.3 55.8,21 48.6,13.8 33.9,13.8 26.6,21.1 26.6,37.3 33.5,44.2 45.5,44.2 46.7,45.4 46.7,55 
+			45.2,56.5 37.3,56.5 35.5,54.7 35.5,48.7 26.1,48.7 26.1,58.2 33.4,65.5 46.4,65.5 46.4,86.6 55.8,86.6 55.8,65.7 67.6,65.7 
+			67.6,56.2 55.9,56.2 55.9,44.4 73.2,44.4 73.2,34.9 37,34.9 35.8,33.7 35.8,24.1 36.7,23.1 45.2,23.1 46.5,24.4 46.5,30.3 		"/>
+		<polygon class="st5" points="55.8,30.3 55.8,21 48.6,13.8 33.9,13.8 26.6,21.1 26.6,37.3 33.5,44.2 45.5,44.2 46.7,45.4 46.7,55 
+			45.2,56.5 37.3,56.5 35.5,54.7 35.5,48.7 26.1,48.7 26.1,58.2 33.4,65.5 46.4,65.5 46.4,86.6 55.8,86.6 55.8,65.7 67.6,65.7 
+			67.6,56.2 55.9,56.2 55.9,44.4 73.2,44.4 73.2,34.9 37,34.9 35.8,33.7 35.8,24.1 36.7,23.1 45.2,23.1 46.5,24.4 46.5,30.3 		"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 57.9095 53.8614)" class="st1 st2 st3">c</text>
+</svg>

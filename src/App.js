@@ -1,14 +1,18 @@
+import TukiComponents from "./components/TukiComponents";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
+            <h1>La banda del Tuki</h1>
+            <h2>Integrantes</h2>
+            <h3>Meli</h3>
+            <h3>Tuki</h3>
+            <h3>Guille</h3>
+            <h3>Mathi</h3>
+            <h3>Pablo</h3>
+            <TukiComponents />
+        </div>
   );
-}
 
+};
 export default App;
