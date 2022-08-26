@@ -1,9 +1,10 @@
 
 *{
-  padding: 0;
-  margin: 0;
   font-family: 'Roboto', sans-serif;
   color: antiquewhite;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
   width: 100vw;
@@ -14,6 +15,9 @@ body {
   width: 100%;
   height: 100%;
 }
+
+/* ************* App ************* */
+
 .App {
   width: 100%;
   background-color: rgb(255, 255, 255);
@@ -44,6 +48,7 @@ body {
 /* ************* Components ************* */
 
 .containerTukiComponents {
+  width: 70%;
   padding: 20px 50px;
   margin-top: 20px;
   border: 2px solid rgb(133, 133, 133);
@@ -53,9 +58,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+/* *********************** */
 .TukiChild {
-  background-color: rgba(0, 255, 255, 0.192);
-  width: 80%;
+  width: 90%;
   margin-top: 20px;
   padding: 20px 50px;
   border: 2px solid rgb(143, 143, 143);
@@ -72,15 +77,33 @@ body {
       color: rgb(156, 0, 0);
     }
   }
-  .containerButtons {
-    width: 100%;
+  .counter {
+    width: 90%;
+    margin-top: 20px;
+    background-color: #fff;
+    .containerButtons {
+      width: 100%;
+      margin: 10px 0 10px 0;
+      display: flex;
+      justify-content: space-evenly;
+      .btn {
+        margin-top: 5px;
+      }
+    }  
+  }
+  .info {
+    width: 90%;
+    margin-top: 20px;
+    background-color: #fff;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     .btn {
-      margin-top: 5px;
+      margin: 15px 0 10px 0;
     }
-  }  
+  }
 }
+/* *********************** */
 .TaskCheckpoints {
   width: 80%;
   margin-top: 30px;

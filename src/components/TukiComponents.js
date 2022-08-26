@@ -1,7 +1,6 @@
 import TukiChild from "./TukiChild";
 
 const TukiComponents = () => {
-    console.log("TukiComponents");
     return (
         <div className="containerTukiComponents">
             <h2>Tuki Components</h2>
