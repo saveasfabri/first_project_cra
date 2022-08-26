@@ -4,8 +4,8 @@ const TukiComponents = () => {
     console.log("TukiComponents");
     return (
         <div className="containerTukiComponents">
-            <h1>Tuki Components</h1>
-            <h2>Clase Picante de React</h2>
+            <h2>Tuki Components</h2>
+            <h3>Clase Picante de React</h3>
             <TukiChild />
         </div>
     );

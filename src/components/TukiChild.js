@@ -14,13 +14,21 @@ const TukiChild = () => {
         console.log("Ahora increase funciona");
         setCount(count + 1);
     };
+    const decrease = () => {
+        console.log("Ahora increase funciona");
+        setCount(count - 1);
+    };
 
     return (
         <div className="TukiChild">
-            <h1>Tuki Child!</h1>
-            <h2>Soy hijo de TukiComponents y nieto de App</h2>
-            <h3>Contador: <span>{count}</span> enjoy!</h3>
-            <Button className="btn" onClick={increase} variant="contained">Click Me</Button>
+            <h2>Tuki Child!</h2>
+            <h3>Soy hijo de TukiComponents y nieto de App</h3>
+            <p>Contador: <span>{count}</span> enjoy!</p>
+            <div className="containerButtons">
+                <Button className="btn" onClick={increase} variant="contained">Click and inrease</Button>
+                <Button className="btn" onClick={decrease} variant="contained">Click and decrease</Button>
+            </div>
+            
         </div>
     );
 };

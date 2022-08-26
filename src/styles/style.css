@@ -6,34 +6,49 @@
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   background-color: black;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
 }
 
 .App {
   width: 100%;
-  height: 100vh;
-  margin-top: 10px;
-  background-color: rgba(165, 42, 42, 0.123);
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .App h1 {
-  margin-top: 5px;
-  background-color: rgba(184, 135, 11, 0.527);
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(0, 43, 136);
 }
 .App h2 {
-  background-color: rgba(128, 255, 0, 0.411);
+  text-align: center;
+  font-weight: 500;
+  color: rgb(3, 91, 207);
 }
 .App h3 {
-  color: black;
-  background-color: rgba(255, 105, 180, 0.719);
+  text-align: center;
+  color: rgb(62, 86, 122);
+}
+.App p {
+  text-align: center;
+  font-weight: 500;
+  color: rgb(63, 62, 62);
 }
 
+/* ************* Components ************* */
 .containerTukiComponents {
   padding: 20px 50px;
   margin-top: 20px;
-  background-color: rgba(128, 255, 0, 0.151);
+  border: 2px solid rgb(133, 133, 133);
+  background-color: rgb(163, 162, 162);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,25 +57,38 @@ body {
 
 .TukiChild {
   background-color: rgba(0, 255, 255, 0.192);
-  width: 50%;
+  width: 80%;
   margin-top: 20px;
   padding: 20px 50px;
-  border: 2px solid antiquewhite;
+  border: 2px solid rgb(143, 143, 143);
+  background-color: rgb(193, 194, 193);
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(220, 20, 60, 0.24);
 }
 .TukiChild h2 {
   margin-top: 5px;
-  text-align: center;
 }
-.TukiChild h3 {
+.TukiChild p {
   margin-top: 5px;
 }
-.TukiChild h3 span {
-  color: rgb(255, 255, 255);
+.TukiChild p span {
+  color: rgb(156, 0, 0);
 }
-.TukiChild .btn {
+.TukiChild .containerButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.TukiChild .containerButtons .btn {
   margin-top: 5px;
+}
+
+.TaskCheckpoints {
+  width: 80%;
+  margin-top: 30px;
+}
+.TaskCheckpoints .textTask {
+  text-align: left;
+  margin-top: 15px;
 }/*# sourceMappingURL=style.css.map */
